@@ -1,11 +1,11 @@
 package day2
 
 import (
-	"testing"
-	"io/ioutil"
-	"fmt"
 	"bytes"
+	"fmt"
+	"io/ioutil"
 	"strconv"
+	"testing"
 )
 
 var realInput [][]int64
@@ -41,11 +41,11 @@ func init() {
 }
 
 func TestSolve1(t *testing.T) {
-/*
-	5 1 9 5
-	7 5 3
-	2 4 6 8
- */
+	/*
+		5 1 9 5
+		7 5 3
+		2 4 6 8
+	*/
 	test1 := [][]int64{
 		[]int64{5, 1, 9, 5},
 		[]int64{7, 5, 3},

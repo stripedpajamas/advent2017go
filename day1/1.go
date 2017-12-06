@@ -6,7 +6,7 @@ func Solve1(input []int64) int64 {
 	inputLen := len(input)
 
 	for i, x := range input {
-		if x == input[(i + 1) % inputLen] {
+		if x == input[(i+1)%inputLen] {
 			total += x
 		}
 	}
@@ -21,7 +21,7 @@ func Solve2(input []int64) int64 {
 	half := inputLen / 2
 
 	for i, x := range input {
-		if x == input[(i + half) % inputLen] {
+		if x == input[(i+half)%inputLen] {
 			total += x
 		}
 	}

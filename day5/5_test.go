@@ -1,11 +1,11 @@
 package day5
 
 import (
-	"io/ioutil"
 	"bytes"
+	"fmt"
+	"io/ioutil"
 	"strconv"
 	"testing"
-	"fmt"
 )
 
 var input []int
